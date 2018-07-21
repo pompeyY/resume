@@ -1,0 +1,637 @@
+html, body {
+    height: 100%;
+}
+
+/*头部导航栏开始*/
+.header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.header .header-icon {
+    width: 46px;
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 46px;
+    border-radius: 23px;
+    background: #fff;
+    cursor: pointer;
+    background: url(../img/header.jpg) left top no-repeat;
+    background-size: 46px 46px;
+}
+
+/*头部导航栏技术*/
+
+.container {
+    height: 100%;
+    background-color: #87b0a5;
+}
+
+.body {
+    position: relative;
+}
+
+/*自我介绍开始*/
+.body-one {
+    height: 100%;
+    background-color: #87b0a5;
+    width: 100%;
+}
+
+.body-one > .body-header {
+    position: absolute;
+    left: 44%;
+    top: 20%;
+    width: 154px;
+    height: 154px;
+    border-radius: 77px;
+    background: url(../img/me.jpg) left top no-repeat;
+    background-size: 154px 204px;
+}
+
+.body-one > .body-say {
+    position: absolute;
+    width: 70%;
+    margin: 40px auto;
+    left: 17%;
+    top: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.body-one > .body-say span {
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 0;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.body-one > .body-intro {
+    width: 70%;
+    margin: 40px auto;
+    left: 15%;
+    top: 70%;
+    text-align: center;
+    position: absolute;
+}
+
+.body-one > .body-intro p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+/*自我介绍结束*/
+
+/*关于我开始*/
+.body-two {
+    height: 100%;
+    background-color: #109085;
+}
+
+.body-two > .two-relat {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    left: 46%;
+    top: 15%;
+    color: #fff;
+
+}
+
+.body-two > .two-icon {
+    left: 15%;
+    top: 30%;
+    position: absolute;
+    width: 100%;
+}
+
+.body-two > .two-icon > .two-icon-two {
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin-left: 8%;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+.body-two > .two-icon > .two-icon-two > .two-icon-text {
+    color: #fff;
+    width: 100px;
+    font-size: 20px;
+    float: left;
+    margin-top: 110px;
+    margin-left: 5px;
+}
+
+.body-two > .two-icon > .two-icon-two > .iconfont {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.body-two > .two-intro {
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    bottom: 0;
+    left: 4%;
+}
+
+.body-two > .two-intro > .two-intro-div {
+    float: left;
+    width: 23%;
+}
+
+.body-two > .two-intro > .two-intro-div .two-intro-title {
+    text-align: left;
+    margin-left: 30px;
+    color: #47fa15;
+    font-weight: 700;
+}
+
+.body-two > .two-intro > .two-intro-01 {
+    height: 100%;
+}
+
+.body-two > .two-intro p {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 5px 10px;
+}
+
+/*关于我结束*/
+
+/*技术栈 开始*/
+.body-three {
+    height: 100%;
+    background-color: #4d5e8f;
+}
+
+.body-three .three-tec {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    left: 46%;
+    top: 15%;
+    color: #fff;
+}
+
+.body-three .three-css3 {
+    float: left;
+    width: 320px;
+    height: 320px;
+    border-radius: 360px;
+    margin-top: 15%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.body-three .three-css3 .three-css3-big {
+    width: 320px;
+    height: 320px;
+    border-radius: 360px;
+    border: 4px dashed #aaa;
+
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circleRever {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-text span {
+    display: block;
+    animation: circleRever 15s infinite linear;
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-text {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+
+    animation: circle 15s infinite linear;
+    -webkit-animation: circle 15s infinite linear;
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-webpack {
+    left: 50%;
+    margin-left: -30px;
+    top: -30px;
+    transform-origin: 30px 193px;
+    -webkit-transform-origin: 30px 193px;
+    background: rgba(147, 147, 189, 0.8);
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-vue {
+    top: 50%;
+    margin-top: -30px;
+    left: -30px;
+    transform-origin: 190px 33px;
+    -webkit-transform-origin: 190px 33px;
+    background: rgba(193, 131, 106, 0.8);
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-node {
+    left: 50%;
+    margin-left: -30px;
+    bottom: -30px;
+    transform-origin: 30px -127px;
+    -webkit-transform-origin: 30px -127px;
+    background: rgba(76, 157, 160, 0.8);
+}
+
+.body-three .three-css3 .three-css3-big .css3-big-git {
+    top: 50%;
+    margin-top: -30px;
+    right: -30px;
+    transform-origin: -130px 33px;
+    -webkit-transform-origin: -130px 33px;
+    background: rgba(121, 100, 102, 0.8);
+}
+
+.body-three .three-css3 .three-css3-small {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    border: 4px dashed #aaa;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-text {
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    line-height: 50px;
+    position: absolute;
+    animation: circleRever 20s infinite linear;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-text span {
+    display: block;
+    animation: circle 20s infinite linear;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-html {
+    left: 50%;
+    margin-left: -27px;
+    top: -27px;
+    background: rgba(238, 215, 163, 0.8);
+    transform-origin: 23px 118px;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-css {
+    top: 16%;
+    left: 93%;
+    margin-left: -27px;
+    background: rgba(171, 209, 220, 0.8);
+    transform-origin: -54px 65px;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-javascript {
+    left: 90%;
+    margin-left: -33px;
+    top: 73%;
+    background: rgba(179, 164, 140, 0.8);
+    transform-origin: -45px -35px;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-jquery {
+    top: 86%;
+    margin-top: -27px;
+    left: -2%;
+    background: rgba(207, 184, 178, 0.8);
+    transform-origin: 99px -33px;
+}
+
+.body-three .three-css3 .three-css3-small .css3-small-bootstrap {
+    top: 16%;
+    margin-left: -10%;
+    background: rgba(66, 66, 66, 0.8);
+    transform-origin: 109px 67px;
+}
+
+.body-three .three-into {
+    float: right;
+    margin-top: 15%;
+    text-align: left;
+    margin-right: 15%;
+    width: 40%;
+}
+
+.body-three .three-into p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/*技术栈 结束*/
+
+/*作品集开始*/
+.body-four {
+    height: 100%;
+    background-color: #945c4c;
+}
+
+.body-four .four-work {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    left: 46%;
+    top: 15%;
+    color: #fff;
+}
+
+.body-four .four-more {
+    position: absolute;
+    height: 55%;
+    width: 60%;
+    top: 25%;
+    left: 50%;
+    border: none;
+    box-shadow: 5px 5px 10px #222;
+    margin-left: -30%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.body-four .four-more .four-more-contain {
+    display: none;
+    height: 100%;
+}
+
+.body-four .four-more .four-more-contain .four-more-left {
+    text-align: center;
+    height: 100%;
+    float: left;
+    width: 30%;
+    border-right: 1px solid #aaa;
+}
+
+.body-four .four-more .four-more-contain .four-more-left img {
+    width: 80%;
+    margin-top: 40%;
+    padding: 0 5%;
+}
+
+.body-four .four-more .active {
+    display: block;
+}
+
+.body-four .four-more .four-more-right {
+    height: 100%;
+    float: right;
+    padding-top: 5%;
+    width: 65%;
+}
+
+.body-four .four-more .four-more-right h1{
+    font-size: 25px;
+    line-height: 40px;
+    color: #945C4C;
+    font-weight: 700;
+}
+
+.body-four .four-more .four-more-right li{
+    font-size: 18px;
+    line-height: 35px;
+    list-style-type: disc;
+    margin-top: 8px;
+}
+
+.body-four .four-short-cut {
+    position: absolute;
+    left: 50%;
+    margin-left: -20%;
+    top: 85%;
+    height: 5%;
+    width: 100%;
+}
+
+.body-four .four-short-cut .cut-list li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .5);
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.body-four .four-short-cut .cut-list .now {
+    /*width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: -5px;*/
+    transform: scale(2);
+    background: rgba(0, 0, 0, .7);
+    transition: all .5s;
+}
+
+.body-four .four-des {
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.body-four .four-des p {
+    color: #fff;
+    font-size: 22px;
+}
+
+/*作品集结束*/
+
+/*联系我开始*/
+.body-five {
+    height: 100%;
+    background-color: #a29971;
+}
+
+.body-five .five-relat {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    left: 46%;
+    top: 15%;
+    color: #fff;
+}
+
+.body-five .five-des1 {
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    left: 36%;
+    top: 30%;
+}
+
+.body-five .five-des1 span {
+    margin-left: 30px;
+}
+
+.body-five .five-des1 .five-des1-color1 {
+    color: red;
+}
+
+.body-five .five-des1 .five-des1-color2 {
+    color: #3cf;
+}
+
+.body-five .five-des1 .five-des1-color3 {
+    color: #6c0;
+}
+
+.body-five .five-des1 .five-des1-color4 {
+    color: #f63;
+}
+
+.body-five .five-des2 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    left: 38%;
+    top: 45%;
+    text-align: center;
+}
+
+.body-five .five-des2 p {
+    color: #fff;
+    line-height: 35px;
+}
+
+.body-five .five-icon {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+}
+.body-five .five-icon .five-icon-qq {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.body-five .five-icon .five-icon-qq .icon-qq-small {
+    padding-left: 30%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.body-five .five-icon .five-icon-qq .icon-qq-big {
+    padding: 10px 40px;
+    height: 80%;
+    cursor: pointer;
+}
+
+.body-five .five-icon .five-icon-weixin {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.body-five .five-icon .five-icon-weixin .icon-weixin-small {
+    padding-left: 20%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.body-five .five-icon .five-icon-weixin .icon-weixin-big {
+    padding: 10px 40px;
+    height: 80%;
+    cursor: pointer;
+}
+
+
+    /*联系我结束*/
+
+.short-cut {
+    position: fixed;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+    right: 5%;
+    top: 80px;
+}
+
+.short-cut ul {
+    height: 100%;
+}
+
+.short-cut ul li {
+    position: relative;
+    right: 80px;
+    top: 80px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.short-cut ul li a {
+    position: absolute;
+    left: 60px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, .5);
+    transition: all 1s;
+}
+
+.short-cut ul li a span {
+    display: block;
+    padding-top: 3px;
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    /*font-size: 0;*/
+}
+
+.short-cut ul li .li-dot-active {
+    top: 45px;
+    left: 51px;
+    height: 34px;
+    width: 34px;
+    border-radius: 17px;
+    transition: all .3s;
+}
+
+
